@@ -1,6 +1,6 @@
 # Web Developer Portfolio
 
-##Responsive web developer portfolio with light and dark themes.
+Responsive web developer portfolio with light and dark themes.
 
 ![Screen mockup of developer portfoilo website](screen-mockup/screen-mockup.jpg)
 
