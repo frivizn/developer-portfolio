@@ -1,0 +1,37 @@
+/* Variables
+------------------------------------*/
+
+
+/* Color palette */
+
+/* 
+  #090979 - (Navy Blue);     // primary
+  #00d4ff - (Vivid Sky Blue); // secondary
+  #230903 - (Dark Sienna); // text
+  #FFFBFC - (Snow); // background
+
+  #F24236 - (Cinnabar);     
+  #5DFDCB - (Aquamarine) 
+
+*/
+
+/* Color variables */ 
+
+$primary: rgb(9, 9, 121);
+$secondary: rgb(0, 212, 255);
+$background: #230903;
+$text: #FFFBFC;
+$hover-color: rgba(93, 253, 203, .5);
+$navbar-bg:rgba(9,9,121,.7);
+$box-shadow-light: 3px 4px 6px #ccc;
+$box-shadow-dark:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+$cinnabar-dark: rgb(145, 21, 9);
+$cinnabar-light: rgb(242, 66, 54);
+
+$fade-animation: fadeIn ease-in 1s;
+
+
+/* Font variables */ 
+
+$main-font: 'Montserrat', sans-serif;

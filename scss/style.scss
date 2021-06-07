@@ -1,0 +1,22 @@
+/* All styles
+------------------------------------*/
+
+@import "variables";
+@import "normalize";
+@import "mixins";
+@import "typography";
+@import "globals";
+@import "hero-container/hero";
+@import "hero-container/navigation";
+@import "hero-container/header";
+@import "hero-container/social-media";
+@import "section/skills";
+@import "section/portfolio";
+@import "section/cards";
+@import "section/contact";
+@import "footer";
+@import "media-queries/contact";
+@import "media-queries/tablet";
+@import "media-queries/phone";
+
+

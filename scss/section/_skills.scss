@@ -1,0 +1,30 @@
+/* Skills
+------------------------------------*/
+
+.skills {
+  background: $text;
+
+  &__title {
+    opacity: 0;
+  }
+
+  &__content {
+    opacity: 0;
+  }
+}
+.skill {
+  text-align: center;
+  line-height: 2;
+  padding: 20px;
+  box-shadow: $box-shadow-light; 
+
+  &__icon {
+    font-size: 3rem;
+    color: $primary;
+  }
+  
+  &__text {
+    font-size: .7rem;
+  }
+
+}

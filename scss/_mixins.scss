@@ -1,0 +1,11 @@
+@mixin fadeIn($fade-animation) {
+  @keyframes fadeIn {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  animation: $fade-animation;
+  -webkit-animation: $fade-animation;
+  -moz-animation: $fade-animation;
+  -o-animation: $fade-animation;
+  -ms-animation: $fade-animation; 
+}

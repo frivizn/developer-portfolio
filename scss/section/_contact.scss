@@ -1,0 +1,57 @@
+/* Contact
+------------------------------------*/
+
+.contact {
+
+  &__title {
+    padding-bottom:1em;
+  }
+
+  &__text {
+    text-align: center;
+    padding-bottom: 3em;
+  }
+
+  &__body {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 300px 2em;
+  }
+
+  &__image {
+    grid-row: 1/9;
+    grid-column: 2/3;
+    box-shadow: $box-shadow-dark;
+    position: relative;
+    z-index: 10;
+  }
+
+  &__social-media {
+    grid-row: 5/6;
+    grid-column: 1/2;
+    padding:0;
+  }
+
+  &__social-media-icon {
+    color: $primary;
+    font-size: 3rem;
+  }
+
+  &__social-media-icon i:hover {
+    transform: scale(1.2) translateY(-15px);
+    transition: 0.5s;
+  }
+
+  &__email-bg {
+    grid-row: 7/8;
+    grid-column: 1 / end;
+    font-size: 1.5rem;
+    background-color: $primary;
+    padding: .5em 1em;
+  }
+
+  &__email-text {
+    color: $text;
+  }
+}

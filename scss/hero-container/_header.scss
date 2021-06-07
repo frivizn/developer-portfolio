@@ -1,0 +1,44 @@
+/* Header
+------------------------------------*/
+
+.headline {
+  @include fadeIn(fadeIn ease-in 2s);
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  color: $primary;
+  line-height: 1.7;
+ 
+
+  &__title {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  &__text {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+  &__button {
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    width: 180px;
+    color: $primary;
+    border: $primary 1px solid;
+    padding: 15px 20px;
+    border-radius: 30px;
+    margin-top: 20px;
+  }
+
+  &__button:hover {
+    background: $primary;
+    color: $text;
+    transition: 1s;
+  }
+  
+}

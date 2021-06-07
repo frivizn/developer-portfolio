@@ -1,0 +1,28 @@
+/* Media queries - Contact section
+------------------------------------*/
+
+@media (max-width: 1035px) {
+
+  .contact {
+
+    &__body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__social-media {
+      text-align: center;
+      margin-bottom: 2em;
+      order: 1;
+    }
+
+    &__email-bg {
+      order: 2;
+      margin-bottom: 2em;
+    }
+
+    &__image {
+      order: 3;
+    }
+  } 
+}

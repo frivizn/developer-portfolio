@@ -1,0 +1,18 @@
+/* Social media icons 
+------------------------------------*/
+
+.social-media {
+  @include fadeIn(fadeIn ease-in 2s);
+  padding: 50px;
+
+  &__icon {
+    font-size: 2rem;
+    color: $primary;
+    margin-right: 10px;;   
+  }
+
+  &__icon i:hover {
+    transform: scale(1.2) translateY(-15px);
+    transition: 0.5s;
+  }
+}

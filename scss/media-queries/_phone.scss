@@ -1,0 +1,46 @@
+/* Media queries - Phone
+------------------------------------*/
+
+@media (max-width: 499px) {
+
+  section {
+    padding: 50px 20px;
+  }
+
+  .nav__color-btn {
+    display: none;
+  }
+
+  .nav__links {
+    width: 100%;
+    flex-direction: column;
+    line-height: 7; 
+  }
+
+  .headline {
+
+    &__title {
+      font-size: 1.5rem;
+    }
+    
+    &__text {
+      font-size: 1rem;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    &__button{
+      width: 120px;
+      border-radius: 20px;
+      margin-top: 5px;
+      font-size: 12px;
+    }
+
+  }
+  
+  .section__content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+

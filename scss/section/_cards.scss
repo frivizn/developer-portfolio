@@ -1,0 +1,40 @@
+/* Cards
+------------------------------------*/
+
+.card {
+  background: $text;
+  box-shadow: $box-shadow-dark;
+  text-align: center;
+  line-height: 2;
+
+  &__title {
+    color: $background;
+    font-size: 18px;
+    margin-top: 1em;
+  }
+
+  &__icon {
+    font-size: 2rem;
+    color: $primary;
+  }
+
+  &__button {
+    font-size: 1.5rem;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 20px;
+    background: $primary;
+    color: $text;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 1.5em;
+  }
+
+  &__button:hover {
+    background: $secondary;
+    transition: 1s;
+    color: $text;
+  }
+}

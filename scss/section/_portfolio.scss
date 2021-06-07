@@ -1,0 +1,19 @@
+/* Portfolio
+------------------------------------*/
+
+.portfolio {
+  
+  background: $secondary;
+  background: linear-gradient(135deg, rgba(0,212,255,1) 0%, rgb(9, 9, 121) 100%, rgba(74,68,181,1) 100%);
+
+  &__title {
+    opacity: 0;
+    color: $background;
+  }
+
+  &__content {
+    opacity: 0;
+  }
+
+
+}

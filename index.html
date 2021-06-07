@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/light-theme.min.css">
+
+  <link id="theme-style" rel="stylesheet" href="">
+</head>
+
+<body>
+
+  <!-- Hero container -->
+  <div id="hero" class="hero">
+
+    <!-- Navigation -->
+    <nav class="nav">
+
+      <a class="nav__brand-title" href="index.html">Frivizn</a>
+
+      <a class="nav__toggle-button" href="#" role="button">
+        <span class="nav__button-bar"></span>
+        <span class="nav__button-bar"></span>
+        <span class="nav__button-bar"></span>
+      </a>
+
+      <div class="nav__color-btn">
+        <a id="light-mode" class="nav__theme-btn nav__color-btn--light" data-mode="light" href="#"
+          title="Light theme"></a>
+        <a id="dark-mode" class=" nav__theme-btn nav__color-btn--dark" data-mode="dark" href="#" title="Dark theme"></a>
+      </div>
+
+      <div class="nav__navbar">
+        <ul class="nav__links">
+          <li><a href="#hero" class="nav__link">Home</a></li>
+          <li><a href="#skills" class="nav__link">Skills</a></li>
+          <li><a href="#portfolio" class="nav__link">Portfolio</a></li>
+          <li><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </div>
+
+    </nav>
+
+    <!-- Headline  -->
+
+    <header class="headline">
+      <h1 class="headline__title">Hello, I am Dusko</h1>
+      <p class="headline__text">Front End Developer</p>
+      <a class="headline__button" href="#portfolio" role="button">Portfolio</a>
+    </header>
+
+    <!-- Social Media  -->
+
+    <div class="social-media">
+      <a class="social-media__icon" href="https://www.github.com/frivizn" target="_blank">
+        <i class="fab fa-github-square"></i>
+      </a>
+      <a class="social-media__icon" href="https://www.linkedin.com" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a class="social-media__icon" href="https://www.twitter.com" target="_blank">
+        <i class="fab fa-twitter-square"></i>
+      </a>
+      <a class="social-media__icon" href="https://www.instagram.com" target="_blank">
+        <i class="fab fa-instagram-square"></i>
+      </a>
+    </div>
+
+  </div> <!-- End of hero container -->
+
+  <!-- Skills -->
+
+  <section id="skills" class="skills">
+    <h2 class="section__title skills__title">Skills</h2>
+
+    <!-- Skills content-->
+
+    <div class="section__content skills__content">
+
+      <div class="skill">
+        <h3 class="skill__title">HTML</h3>
+        <div class="skill__icon">
+          <i class="fab fa-html5"></i>
+        </div>
+        <p class="skill__text">HTML5, Web Semantics, Accessibility</p>
+      </div>
+
+      <div class="skill">
+        <h3 class="skill__title">CSS</h3>
+        <div class="skill__icon">
+          <i class="fab fa-css3-alt"></i>
+        </div>
+        <p class="skill__text">CSS Animations, Sass, Less</p>
+      </div>
+
+      <div class="skill">
+        <h3 class="skill__title">JavaScript</h3>
+        <div class="skill__icon">
+          <i class="fab fa-js-square"></i>
+        </div>
+        <p class="skill__text">JS DOM, Asynchronous JS, APIs</p>
+      </div>
+
+      <div class="skill">
+        <h3 class="skill__title">Bootstrap</h3>
+        <div class="skill__icon">
+          <i class="fab fa-bootstrap"></i>
+        </div>
+        <p class="skill__text">Responsive Websites, Mockups</p>
+      </div>
+
+      <div class="skill">
+        <h3 class="skill__title">Wordpress</h3>
+        <div class="skill__icon">
+          <i class="fab fa-wordpress"></i>
+        </div>
+        <p class="skill__text">WP Themes, WP Plugins</p>
+      </div>
+
+      <div class="skill">
+        <h3 class="skill__title">React.js</h3>
+        <div class="skill__icon">
+          <i class="fab fa-react"></i>
+        </div>
+        <p class="skill__text">Redux, React Hooks</p>
+      </div>
+
+    </div> <!-- End of section__content -->
+
+  </section> <!-- End of skills -->
+
+  <!-- Portfolio -->
+
+  <section id="portfolio" class="portfolio">
+    <h2 class="section__title portfolio__title">Portfolio</h2>
+
+    <!-- Cards -->
+    <div class="section__content portfolio__content">
+
+      <div class="card">
+        <a href="images/accountant.jpg" target="_blank">
+          <img src="images/accountant.jpg" alt="Accountant screen mockup">
+        </a>
+        <h3 class="card__title">HTML Template</h3>
+        <p class="card__text">A website for accounting business</p>
+        <a class="card__icon" href="https://github.com/frivizn/accountant-website-template" target="_blank">
+          <i class="fab fa-github-square"></i>
+        </a>
+        <a class="card__button" href="http://www.frivizn.com/accountant/" target="_blank" role="button">
+          Demo
+        </a>
+      </div>
+
+      <div class="card">
+        <a href="images/portfolio.jpg" target="_blank">
+          <img src="images/portfolio.jpg" alt="Portfolio screen mockup">
+        </a>
+        <h3 class="card__title">HTML Template</h3>
+        <p>A single page portfolio website</p>
+        <a class="card__icon" href="https://github.com/frivizn/portfolio-website-template" target="_blank">
+          <i class="fab fa-github-square"></i>
+        </a>
+        <a class="card__button" href="http://www.frivizn.com/portfolio/" target="_blank" role="button">
+          Demo
+        </a>
+      </div>
+
+      <div class="card">
+        <a href="images/news.jpg" target="_blank">
+          <img src="images/news.jpg" alt="News screen mockup">
+        </a>
+        <h3 class="card__title">HTML Template</h3>
+        <p>News website template</p>
+        <a class="card__icon" href="https://github.com/frivizn/news-website-template" target="_blank">
+          <i class="fab fa-github-square"></i>
+        </a>
+        <a class="card__button" href="http://www.frivizn.com/news/" target="_blank" role="button">
+          Demo
+        </a>
+      </div>
+
+      <div class="card">
+        <a href="images/hotel.jpg" target="_blank">
+          <img src="images/hotel.jpg" alt="Hotel screen mockup">
+        </a>
+        <h3 class="card__title">HTML Template</h3>
+        <p>Hotel website template</p>
+        <a class="card__icon" href="https://github.com/frivizn/hotel-template-with-bootstrap" target="_blank">
+          <i class="fab fa-github-square"></i>
+        </a>
+        <a class="card__button" href="http://www.frivizn.com/hotel/" target="_blank" role="button">
+          Demo
+        </a>
+      </div>
+
+      <div class="card">
+        <a href="images/restaurant.jpg" target="_blank">
+          <img src="images/restaurant.jpg" alt="Restaurant screen mockup">
+        </a>
+        <h3 class="card__title">HTML Template</h3>
+        <p>Single page restaurant website</p>
+        <a class="card__icon" href="https://github.com/frivizn/restaurant-template-with-sass" target="_blank">
+          <i class="fab fa-github-square"></i>
+        </a>
+        <a class="card__button" href="http://www.frivizn.com/restaurant/" target="_blank" role="button">
+          Demo
+        </a>
+      </div>
+
+      <div class="card">
+        <a href="images/travel.jpg" target="_blank">
+          <img src="images/travel.jpg" alt="Travel screen mockup">
+        </a>
+        <h3 class="card__title">HTML Template</h3>
+        <p>Travel agency website</p>
+        <a class="card__icon" href="https://github.com/frivizn/travel-agency" target="_blank">
+          <i class="fab fa-github-square"></i>
+        </a>
+        <a class="card__button" href="http://www.frivizn.com/travel/" target="_blank" role="button">
+          Demo
+        </a>
+      </div>
+
+    </div><!-- End of section__content -->
+
+  </section> <!-- End of portfolio -->
+
+  <!-- Contact -->
+
+  <section id="contact" class="contact">
+    <h2 class="section__title contact__title">Contact</h2>
+    <p class="contact__text">If you have any questions feel free to contact me:</p>
+
+    <div class="contact__body">
+
+      <p class="contact__email-bg">
+        <a class="contact__email-text" href="mailto:frivizn@gmail.com">frivizn@gmail.com</a>
+      </p>
+
+      <!-- Social Media  -->
+
+      <div class="contact__social-media">
+        <a class="contact__social-media-icon" href="https://www.github.com/frivizn" target="_blank">
+          <i class="fab fa-github-square"></i>
+        </a>
+        <a class="contact__social-media-icon" href="https://www.linkedin.com" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a class="contact__social-media-icon" href="https://www.twitter.com" target="_blank">
+          <i class="fab fa-twitter-square"></i>
+        </a>
+        <a class="contact__social-media-icon" href="https://www.instagram.com" target="_blank">
+          <i class="fab fa-instagram-square"></i>
+        </a>
+      </div>
+
+      <img class="contact__image" src="images/dusko.jpg" alt="Web developer picture">
+
+    </div> <!-- End of contact__body -->
+
+  </section> <!-- End of contact -->
+
+  <footer class="footer">
+    <p>Frivizn &copy;2021</p>
+  </footer>
+
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

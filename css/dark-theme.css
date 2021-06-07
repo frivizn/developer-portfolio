@@ -1,0 +1,145 @@
+
+ /* Hero container
+ ------------------------------------*/
+ .hero {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/hero-bg.jpg);
+ }
+ 
+ /* Navigation
+ ------------------------------------*/
+ .nav {
+   background-color: rgba(0, 0, 0, 0.3);
+   color: #FFFBFC;
+ }
+ 
+ .nav__link:hover {
+   background-color: #555;
+ }
+ 
+ .sticky {
+   background-color: #230903;
+   color: #FFFBFC;
+ }
+ 
+ /* Header
+ ------------------------------------*/
+ .headline {
+   color: #FFFBFC;
+
+ }
+ 
+ .headline__button {
+   color: #FFFBFC;
+   border: #FFFBFC 1px solid;
+ }
+ 
+ .headline__button:hover {
+   background: #FFFBFC;
+   color: #230903;
+ }
+ 
+ /* Social media icons 
+ ------------------------------------*/
+
+ .social-media__icon {
+   color: #FFFBFC;
+ }
+
+ /* Skills
+ ------------------------------------*/
+ .skills {
+   background: #230903;
+ }
+ 
+
+ .skill {
+   background: #911509;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ }
+ 
+ .skills__title {
+   color: #FFFBFC;
+ }
+ 
+ .skill__icon {
+   color: #FFFBFC;
+ }
+ 
+ .skill__text {
+   color: #FFFBFC;
+ }
+ 
+ /* Portfolio
+ ------------------------------------*/
+ .portfolio {
+   background: #00d4ff;
+   background: linear-gradient(135deg, #00d4ff 0%, #090979 100%, #4a44b5 100%);
+ }
+ 
+ .portfolio__title {
+   color: #230903;
+ }
+ 
+ /* Cards
+ ------------------------------------*/
+ .card {
+   background: #230903;
+   color: #FFFBFC;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ }
+ 
+ .card__icon {
+   color: #FFFBFC;
+ }
+
+ .card__text {
+  color: #FFFBFC;
+ }
+ 
+ .card__button {
+   background: #911509;
+   color: #FFFBFC;
+ }
+ 
+ .card__button:hover {
+   background: #f24236;
+ }
+ 
+ /* Contact
+ ------------------------------------*/
+ .contact {
+   background: #911509;
+ }
+ 
+ .contact__title {
+   color: #FFFBFC;
+ }
+ 
+ .contact__text {
+   color: #FFFBFC;
+ }
+ 
+ .contact__image {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ }
+ 
+ .contact__social-media-icon {
+   color: #FFFBFC;
+ }
+ 
+ .contact__email-bg {
+   background-color: #FFFBFC;
+   color: #230903;
+ }
+ 
+ .contact__email-text {
+   color: #230903;
+ }
+ 
+ /* Footer
+ ------------------------------------*/
+ .footer {
+   background: #230903;
+   color: #FFFBFC;
+ }
+ 
